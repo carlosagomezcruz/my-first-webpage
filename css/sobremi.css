@@ -1,0 +1,24 @@
+.sobreMi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.sobreMi_titulo {
+    margin-top: 1rem;
+}
+
+
+.sobreMi_parrafo {
+
+    margin-bottom: 1rem;
+}
+
+.sobreMi_firma {
+    width: 150px;
+    height: 46px
+}

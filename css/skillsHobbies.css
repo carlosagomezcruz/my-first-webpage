@@ -1,0 +1,120 @@
+.skillsHobbies {
+    background: #F5F5F5;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sikllsHobbies_skillsElements {
+    margin-bottom: 3rem;
+}
+
+.sikllsHobbies_Titulo {
+    text-align: center;
+}
+
+.sikllsHobbies_lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.sikllsHobbies-itemlista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #FFFFFF;
+    margin: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+
+.sikllsHobbies-iconitem {
+    background-repeat: no-repeat;
+    width: 47px;
+    height: 35px;
+    background-position: center;
+    margin: 0 0 .5rem.5rem;
+}
+
+.sikllsHobbies-itemlink {
+    font-weight: 700;
+    margin: 0 0 .7rem.7rem;
+}
+
+/* ICONOS SKILLS */
+
+.sikllsHobbies_iconitem--html5 {
+    background-image: url(../img/icono-html5.svg);
+
+}
+
+.sikllsHobbies_iconitem--javascript {
+    background-image: url(../img/icono-js.svg);
+}
+
+.sikllsHobbies_iconitem--php {
+    background-image: url(../img/icono-php.svg);
+}
+
+.sikllsHobbies_iconitem--nodejs {
+    background-image: url(../img/icono-nodejs.svg);
+}
+
+.sikllsHobbies_iconitem--react {
+    background-image: url(../img/icono-react.svg);
+}
+
+.sikllsHobbies_iconitem--css {
+    background-image: url(../img/icono-css.svg);
+}
+
+/* ICONOS HOBBIES */
+
+.sikllsHobbies_iconitem--patinaje {
+    background-image: url(../img/icono-patinaje.svg);
+}
+
+.sikllsHobbies_iconitem--tocarBajo {
+    background-image: url(../img/icono-guitarra.svg);
+}
+
+.sikllsHobbies_iconitem--oirMusica {
+    background-image: url(../img/icono-wireless.svg);
+}
+
+.sikllsHobbies_iconitem--verSeries {
+    background-image: url(../img/icono-tv.svg);
+}
+
+.sikllsHobbies_iconitem--cocinar {
+    background-image: url(../img/icono-cook.svg);
+}
+
+.sikllsHobbies_iconitem--tomarFotos {
+    background-image: url(../img/icono-camera.svg);
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .sikllsHobbies-itemlista {
+        margin: 0.5rem;
+        width: 200px;
+        height: 118px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+
+    .sikllsHobbies-itemlista {
+        margin: 0.5rem;
+        width: 130px;
+        height: 130px;
+    }
+
+}
+

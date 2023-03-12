@@ -1,0 +1,118 @@
+.descripcion {
+    background-color: #F5F5F5;
+    display: flex;
+
+}
+
+.descripcion_info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    justify-content: space-around;
+}
+
+.descripcion_fotoPerfil {
+    height: 283px;
+    width: 340px;
+    margin: 2% 6%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.descripcion_fotoPerfil--imagenPerfilCarlos {
+    background-image: url(../img/foto-carlos.jpg);
+}
+
+.descripcion_presentacion {
+    color: #464646;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.descripcion_mas {
+    color: #464646;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.descripcion_listaRedes {
+    display: flex;
+}
+
+.descripcion_listaRedes-itemlista {
+    margin-right: 1rem;
+}
+
+.descripcion_listaRedes-itemlink {
+    color: #464646;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.descripcion_listaRedes-itemlink--icono {
+    background-image: url(../img/incono-descripcion-redesSociales.svg);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .descripcion_fotoPerfil {
+        width: 180px;
+        height: auto;
+        margin: 2% 0;
+        
+    }
+
+    .descripcion_presentacion {
+        font-size: 1.375rem;
+    }
+
+    .descripcion_info {
+        width: 100%;
+    }
+    .descripcion_mas {
+        margin: .875rem 0;
+    }
+
+    .descripcion_listaRedes-itemlista {
+        margin-right: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 420px) {
+
+    .descripcion {
+        flex-direction: column-reverse;
+    } 
+    .descripcion_fotoPerfil {
+        height: 160px;
+        width: 160px;
+        margin: 2% 0;
+    }
+
+    .descripcion_presentacion {
+        font-size: 1.375rem;
+    }
+
+    .descripcion_info {
+        width: 100%;
+    }
+    .descripcion_mas {
+        margin: .875rem 0;
+    }
+    .descripcion_listaRedes-itemlink {
+        font-size: .7rem;
+    }
+    .descripcion_listaRedes-itemlista {
+        margin-right: 1.5rem;
+    }
+}
+
+
+

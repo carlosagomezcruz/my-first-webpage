@@ -1,0 +1,89 @@
+.formularioContact {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.formularioContacto_imagen {
+    width: 26vw;
+    height: 80vh;
+    margin-right: 1rem;
+}
+
+.formularioContacto_contenedor-info {
+    margin-bottom: 1rem;
+}
+
+
+
+.formularioContacto_contentInput {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.formularioContacto_contentInput-label {
+    color: #A2A2A2;
+    font-size: .75rem;
+}
+
+.formularioContacto_contentInput-input:focus {
+    outline: none;
+}
+
+.formularioContacto_contentInput-input {
+    border: none;
+    color: #464646;
+    font-size: 1rem;
+}
+
+.formularioContacto_contentInput-textarea {
+    resize: none;
+    outline: none;
+    border: none;
+    color: #464646;
+    font: inherit;
+    padding: 0.5rem;
+    width: 97.5%;
+    height: 130px;
+}
+
+.formularioContacto_contentInput-textarea[placeholder="Mensaje"] {
+    font-size: 1rem;
+}
+
+.formularioContacto_contentInput-button {
+    border: none;
+    font-size: .8rem;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    line-height: 3.0;
+    text-align: center;
+    width: 117px;
+    height: 41px;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .formularioContacto_imagen {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .formularioContacto_imagen {
+        display: none;
+    }
+
+    .formularioContacto_contentInput-textarea {
+        width: 94.5%;
+    }
+}
+
