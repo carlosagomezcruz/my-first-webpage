@@ -26,6 +26,14 @@
     padding: 0.5rem;
 }
 
+.warning {
+    box-shadow: 0px 0px 10px #ffcc00;
+}
+
+.danger {
+    box-shadow: 0px 0px 10px #F32013;
+}
+
 .formularioContacto_contentInput-label {
     color: #A2A2A2;
     font-size: .75rem;
@@ -67,6 +75,12 @@
     height: 41px;
     margin-top: 1rem;
 }
+
+.button-disabled {
+    opacity: 0.3;
+}
+
+
 
 @media only screen and (max-width: 768px) {
 
